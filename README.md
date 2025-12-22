@@ -1,5 +1,9 @@
 # Research-assistant-AI-agent
 
+
+https://github.com/user-attachments/assets/e4be91fd-4899-4fc7-b9d3-2a06be8f3ae1
+
+
 # 🧠 Research Agent: AI-Powered Document Analyst
 
 > **A Retrieval-Augmented Generation (RAG) application that enables contextual "chat" with PDF research papers .**

@@ -1,0 +1,6 @@
+
+{
+  "name": "Research Agent",
+  "description": "A browser-based RAG application that allows users to upload PDF documents and conduct contextual research using Gemini AI. Features include PDF text extraction, session management, and recent question tracking.",
+  "requestFramePermissions": []
+}

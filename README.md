@@ -16,20 +16,20 @@ This project demonstrates proficiency in **Prompt Engineering**, **React State M
 
 ## ✨ Key Features
 
-* ** PDF Ingestion Engine:** Utilizes `pdf.js` to parse and extract text from complex PDF layouts instantly on the client side.
-* ** Context-Aware RAG:** Implements a RAG pipeline where the extracted text serves as the "Ground Truth" for the Gemini LLM, minimizing hallucinations.
-* ** Modern Chat Interface:** A responsive, distinct UI built with **Tailwind CSS** featuring real-time "thinking" states and markdown rendering.
-* ** Source Context Explorer:** Includes a transparent "View Context" mode that allows users to inspect exactly what data the AI is analyzing.
-* ** Optimized Performance:** Built on **Vite** for sub-second build times and high-performance module serving.
+* PDF Ingestion Engine: Utilizes `pdf.js` to parse and extract text from complex PDF layouts instantly on the client side.
+* Context-Aware RAG: Implements a RAG pipeline where the extracted text serves as the "Ground Truth" for the Gemini LLM, minimizing hallucinations.
+* Modern Chat Interface: A responsive, distinct UI built with **Tailwind CSS** featuring real-time "thinking" states and markdown rendering.
+* Source Context Explorer: Includes a transparent "View Context" mode that allows users to inspect exactly what data the AI is analyzing.
+* Optimized Performance: Built on **Vite** for sub-second build times and high-performance module serving.
 
 ## 🛠️ Tech Stack
 
-* Frontend Framework:** React 18+ (Hooks, State Management)
-* Language:** TypeScript (Strict typing for robustness)
-* Build Tool:** Vite
-* AI Model:** Google Gemini model (API's)
-* Styling:** Tailwind CSS
-* Document Processing:** PDF.js
+* Frontend Framework: React 18+ (Hooks, State Management)
+* Language: TypeScript (Strict typing for robustness)
+* Build Tool: Vite
+* AI Model: Google Gemini model (API's)
+* Styling: Tailwind CSS
+* Document Processing: PDF.js
 
 ## ⚙️ Installation & Setup
 
@@ -62,12 +62,25 @@ Bash
 npm run dev
 Open your browser and navigate to the local link provided (usually http://localhost:5173).
 
-📸 Usage Guide
+```
+
+## 📸 Usage Guide
 Upload: Click the sidebar area to upload a research paper (PDF format).
 
 Analyze: Wait for the "Analysis Active" indicator.
 
 Query: Ask specific questions like "What is the methodology used?" or "Summarize the conclusion."
+
+## 🤝 Contribution
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
 
 Verify: Click "View Extracted Context" to see the raw data backing the answer.
 

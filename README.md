@@ -84,7 +84,7 @@ Open a Pull Request
 
 Verify: Click "View Extracted Context" to see the raw data backing the answer.
 
-🛡️ Security & Architecture Note
+## 🛡️ Security & Architecture Note
 Client-Side Architecture: This MVP runs entirely in the browser. The API key is stored in .env.local and is not exposed to the public repository.
 
 Production Consideration: For a public deployment, the API calls would be moved to a proxy server (Node.js/Express) to fully secure the credentials.
